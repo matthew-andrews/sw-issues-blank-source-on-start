@@ -10,3 +10,13 @@ sw-issues-blank-source-on-start
 (If you import scripts you can click to view those scripts - but not the main script itself - see https://offline-news-service-worker.herokuapp.com)
 
 ![Empty Source](./empty-source.png)
+
+---
+
+Sometimes the console says:-
+
+```
+Failed to load resource: net::ERR_CACHE_MISS
+```
+
+Not sure if this is related...
