@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Service Worker</title>
+  </head>
+  <body>
+    <script>
+    (function() {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+      }
+    }());
+    </script>
+  </body>
+</html>
